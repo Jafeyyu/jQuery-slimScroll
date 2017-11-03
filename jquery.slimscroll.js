@@ -84,7 +84,7 @@
       // do it for every element that matches selector
       this.each(function(){
 
-      var isOverPanel, isOverBar, isDragg, queueHide, touchDif,
+      var isOverPanel = true, isOverBar, isDragg, queueHide, touchDif,
         barHeight, percentScroll, lastScroll,
         divS = '<div></div>',
         minBarHeight = 30,
